@@ -2568,7 +2568,7 @@ p. Continue with...
 
 Execute:
 git remote add shared ../hello.git
-git branch --track shared master
+git branch --track shared shared/master
 git pull shared master
 cat README
 
